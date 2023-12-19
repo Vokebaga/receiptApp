@@ -29,6 +29,9 @@ useEffect(() => {
                             <Link to="/last" className='navbar-brand mx-5 fw-4 fs-12 flex align-center'>
                                 <span className='navbar-brand-text '>Last Receipt</span>
                             </Link>
+                            <Link to="/saved" className='navbar-brand mx-5 fw-4 fs-12 flex align-center'>
+                                <span className='navbar-brand-text '>Saved</span>
+                            </Link>
                         </Link>
 
 
