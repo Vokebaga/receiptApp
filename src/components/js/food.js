@@ -14,16 +14,13 @@ const Food = ({meal}) => {
     const [isSaved, setIsSaved] = useState(false);
 
     const handleSave = () => {
-        // Call the saveRecipe function to save the meal
         saveRecipe({
-            id: meal.id, // Assuming your meal object has an 'id' property
+            id: meal.id,
             thumbnail: meal.thumbnail,
             category: meal.category,
             area: meal.area,
             meal: meal.title,
         });
-
-        // Toggle the save state
         setIsSaved(!isSaved);
     };
 
